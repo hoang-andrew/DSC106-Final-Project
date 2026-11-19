@@ -38,10 +38,12 @@
 
   <article id="writeup">
     <h2>What we have done so far</h2>
-    <p></p>
+    <p>So far we have the interactive threshold-crossing map working, which will be one of the three main views in our final project, along with a global timeline and a San Diego case study. It shows the first year between 2000 and 2100 that each location on the map reaches a chosen level of warming, compared to that location’s 1850-1900 average. The viewer can change the threshold with the slider, switch between three emissions scenarios, hover over the map to see the exact location and year, and zoom and pan around the globe. The data comes from one CMIP6 model (GFDL-ESM4), and we already have the pipeline that computes the warming, smooths it over 10 years, and exports it as a static file the page can load. We also added a short section under the map that explains how it was made and what its limits are.
+    </p>
 
     <h2>What will be the most challenging part to design</h2>
-    <p></p>
+    <p>The hardest part will be adding 5 to 10 more climate models without the page getting slow, since one model already means 15 maps with tens of thousands of locations each. We will need to cut the data down to only what each view actually needs. Another challenge is showing where the models disagree, which is easy on a timeline with a shaded range but much harder on a map. We also have to connect the global timeline, this map, and the San Diego case study into one story that follows the and-but-therefore structure, instead of three separate charts. Getting from the global picture down to San Diego in a way that feels natural will take a lot of work on the text and layout.
+    </p>
   </article>
 </main>
 
